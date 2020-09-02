@@ -623,7 +623,7 @@ def compute_angles(points):
     by 2pi so that each cell has an angle correspongin to one period if the cell cycle
     were to be shown as a circle.
     
-    Function written by Geir Armund Svan Hasle
+    Function written by Geir Armun Svan Hasle
 
     Parameters
     ----------
@@ -645,7 +645,7 @@ def shift_data(data, n, direction = 'positive', reverse = False):
     shifts the order of the AnnData object by a selected amount in the selected
     direction
     
-    Function written by Geir Armund Svan Hasle
+    Function written by Geir Armun Svan Hasle
 
     Parameters
     ----------
@@ -690,7 +690,7 @@ def plot_phase_bar_dist(data,bin_size,return_data=False,plot_path=None):
     The data is put into `bins' for smoothing purposes
     The return of the data and saving of the figures is optional
     
-    Function written by Geir Armund Svan Hasle
+    Function written by Geir Armun Svan Hasle
 
     Parameters
     ----------
@@ -764,7 +764,7 @@ def geir_QC_graph(adata):
     """
     Plots a kernel density plot for the different phases (G1, S, G2M)
     
-    Function written by Geir Armund Svan Hasle
+    Function written by Geir Armun Svan Hasle
 
     Parameters
     ----------
@@ -837,7 +837,7 @@ def prepare_CC_lists(CC_path):
     """
     Function that reads a file and retrieves the genes associated to each phase
     
-    Function written by Geir Armund Svan Hasle
+    Function written by Geir Armun Svan Hasle
 
     Parameters
     ----------
@@ -935,7 +935,7 @@ def perform_scanpy_pca(adata,compute,exclude_gene_counts,exclude_CC):
     of PCAs.
     Mainly created for code legibility
     
-    Function written by Geir Armund Svan Hasle
+    Function written by Geir Armun Svan Hasle
 
     Parameters
     ----------
@@ -1217,7 +1217,7 @@ def compare_marker_genes_per_phase_mod(data,cc_path, phase_choice,do_plots=True,
     The function gives the ability to plot, however it should be noted that this
     function can be quite RAM intensive and should be used accordingly
     
-    Function initially written by Geir Armund Scan Hasle, adapted for lower RAM
+    Function initially written by Geir Armun Svan Hasle, adapted for lower RAM
     usage by Yohan Lefol
 
     Parameters
@@ -1307,7 +1307,7 @@ def score_ordering_mod(expression_df,phase):
     """
     Orders the scores for a specific phase for the 'compare_marker_genes_per_phase_mod' function
     
-    Function initially written by Geir Armund Svan Hasle, adapted for
+    Function initially written by Geir Armun Svan Hasle, adapted for
     lower RAM usageby Yohan Lefol
     
 
